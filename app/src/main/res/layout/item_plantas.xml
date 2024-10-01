@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtPlantas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da planta:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPlantasCuidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nível de cuidado:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtAguaTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de água:"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data do plantio:" />
+
+</LinearLayout>

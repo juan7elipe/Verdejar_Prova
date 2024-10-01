@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/txtPlanta"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="nome da planta:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edPlanta"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="digite o nome da planta"
+      android:inputType="text"
+      android:textSize="14sp" />
+
+  <TextView
+      android:id="@+id/txtCuidado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="nível de cuidado:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edCuidado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="digite o nível de cuidado"
+      android:inputType="text"
+      android:textSize="14sp" />
+
+  <TextView
+      android:id="@+id/txtAgua"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Quantidade de água:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edAgua"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="digite a quantidade de água"
+      android:inputType="text"
+      android:textSize="14sp" />
+
+  <TextView
+      android:id="@+id/txtDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Data do plantio:"
+      android:textSize="18sp" />
+
+  <EditText
+      android:id="@+id/edDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="digite a data de plantio"
+      android:inputType="text"
+      android:textSize="14sp" />
+
+  <Button
+      android:id="@+id/btnInserir"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Inserir" />
+
+  <ListView
+      android:id="@+id/listViewAlunos"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1" />
+
+  <TextView
+      android:id="@+id/txtResultado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp" />
+
+  <Button
+      android:id="@+id/btnZerar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Zerar" />
+
+</LinearLayout>
